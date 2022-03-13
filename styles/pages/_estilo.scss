@@ -1,0 +1,143 @@
+/*---------------------------------------------Estilo por defecto para todo el contenido ----------------------------------------------*/
+*{									
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Arvo', serif;
+}
+body{
+	background-color: $primary;
+}
+.navbar {
+	background: $secondary;
+}
+.nav-link{
+	color: $primary;
+}
+.nav-item{
+	color: $primary;
+}
+.nav-item :hover{
+	color: $hover !important;
+}
+.navbar-brand{
+	color: $primary;
+}
+.navbar-toggler {
+	background-color: $primary;
+} 
+.row{
+	padding-top: 25px;
+}
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------CAROUSEL------------------------------------------------------------------------------------*/
+#carouselExampleIndicators .carousel-control-prev-icon, .carousel-control-next-icon{
+	background-color: $secondary;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	opacity: .9;
+}
+.carousel-item{
+	background-color: $primary;
+	color: white;
+	position: relative;
+	background-position: center;
+ 	min-height: 300px;
+}
+.carousel-inner{
+	height: 77vh;
+}
+.imgnormalizada img {
+  width: 100%;
+  height: 77vh;
+}
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.img_serv{
+	width: 100px;
+	height: 100px;
+}
+
+.iten{
+	padding-bottom: 50px;
+	max-height: 65vh;
+}
+
+
+.anim :hover{
+	animation-name: animacion;
+	animation-duration: 1.2s;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes animacion{
+	15%{
+		transform: scale(.6);
+	}
+}
+
+.anim2 :hover{
+	animation-name: boton;
+	animation-duration: 0.4s;
+}
+
+@keyframes boton{
+	15%{
+		transform: scale(.5);
+	}
+}
+
+
+.anim3 :hover{
+	animation-name: boton;
+	animation-duration: 0.6s;
+}
+
+@keyframes boton{
+	15%{
+		transform: scale(.9);
+	}
+}
+
+
+.mapita{
+	width: 45%;
+	border-radius: 5%;
+}
+
+.footer{
+	padding-top: 25px;
+	padding-bottom: 15px;
+}
+
+
+/*------------------------media queries Pagina Principal-------------------------------------------------------------------------------*/
+@media (max-width: 720px) {
+	.carousel-inner{
+		height: 45vh;
+	}
+
+	.imgnormalizada img {
+		width: 100%;
+		height: 45vh;
+	  }
+
+	#carouselExampleIndicators .carousel-control-prev-icon, .carousel-control-next-icon{
+		width: 25px;
+		height: 25px;
+	}	
+	  
+	.mapita{
+		width: 85%;
+		min-height: 50vh;
+	}
+}
+
+@media (min-width: 720px) {
+	.cont_servicios{
+		padding-top: 40px;
+	}  
+}
+/*------------------------------------------------------------------------------------------------------------------------------------*/

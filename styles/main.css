@@ -1,0 +1,496 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Arvo', serif;
+  }
+  
+  body {
+    background-color: #9ACAEB !important;
+  }
+  
+  .navbar {
+    background: #071C2C;
+  }
+  
+  .nav-link {
+    color: #9ACAEB !important;
+  }
+  
+  .nav-item {
+    color: #9ACAEB !important;
+  }
+  
+  .nav-item :hover {
+    color: #0a447a !important;
+  }
+
+  .nav-item a {
+    color: #9ACAEB !important;
+  }
+  
+  .navbar-brand {
+    color: #9ACAEB !important;
+  }
+  
+  .navbar-toggler {
+    background-color: #9ACAEB !important;
+  }
+  
+  .row {
+    padding-top: 25px;
+  } 
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+/*-----------------------------------------CAROUSEL------------------------------------------------------------------------------------*/
+#carouselExampleIndicators .carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: #071C2C;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  opacity: .9;
+}
+
+.carousel-item {
+  background-color: #9ACAEB !important;
+  color: white;
+  position: relative;
+  background-position: center;
+  min-height: 300px;
+}
+
+.carousel-inner {
+  height: 77vh;
+}
+
+.imgnormalizada img {
+  width: 100%;
+  height: 77vh;
+}
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+.img_serv {
+  width: 100px;
+  height: 100px;
+}
+
+.iten {
+  padding-bottom: 50px;
+  max-height: 65vh;
+}
+
+/*
+.anim :hover {
+  -webkit-animation-name: animacion;
+          animation-name: animacion;
+  -webkit-animation-duration: 1.2s;
+          animation-duration: 1.2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes animacion {
+  15% {
+    -webkit-transform: scale(0.6);
+            transform: scale(0.6);
+  }
+}
+
+@keyframes animacion {
+  15% {
+    -webkit-transform: scale(0.6);
+            transform: scale(0.6);
+  }
+}
+
+.anim2 :hover {
+  -webkit-animation-name: boton;
+          animation-name: boton;
+  -webkit-animation-duration: 0.4s;
+          animation-duration: 0.4s;
+}
+
+@-webkit-keyframes boton {
+  15% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+}
+
+@keyframes boton {
+  15% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+}
+
+.anim3 :hover {
+  -webkit-animation-name: boton;
+          animation-name: boton;
+  -webkit-animation-duration: 0.6s;
+          animation-duration: 0.6s;
+}
+
+@keyframes boton {
+  15% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+}
+*/
+
+
+
+.mapita {
+  width: 45%;
+  border-radius: 5%;
+}
+
+.footer {
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
+/*------------------------media queries Pagina Principal-------------------------------------------------------------------------------*/
+@media (max-width: 720px) {
+  .carousel-inner {
+    height: 45vh;
+  }
+  .imgnormalizada img {
+    width: 100%;
+    height: 45vh;
+  }
+  #carouselExampleIndicators .carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 25px;
+    height: 25px;
+  }
+  .mapita {
+    width: 85%;
+    min-height: 50vh;
+  }
+}
+
+@media (min-width: 720px) {
+  .cont_servicios {
+    padding-top: 40px;
+  }
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------Estilo para formulario ----------------------------------------------------------------*/
+form{								
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.form-select{
+  background-color: #9ACAEB;
+  color: #071C2C;
+}
+
+.form-group button{
+  margin-left: 1rem;
+}
+
+
+input{
+		width: 100%;
+	}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------media queries pestaña contacto-----------------------------------------------------------------*/
+@media (max-width: 355px) {
+  .bot_reset {
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .bot_reset {
+    margin-top: 15px;
+  }
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+/*------------------------ESTILOS EXCLUSIVOS DE PESTAÑA NOSOTROS--------------------------------------------------------------------*/
+.recuadro{
+	border: 9px solid #071C2C;
+	border-radius: 2%;
+}	
+.fnos{
+	padding-bottom: 15px;
+}
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+
+.h_hr{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+
+
+
+
+/*------------------------------------------ TIENDA ---------------------------------------------------------------------------------*/
+.tarjeta{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 65vh;
+  border: solid #071C2C 3px;
+}
+
+
+.tarjeta img{
+  width: 100%;
+  height: 21rem;
+}
+
+
+
+.imagListado{
+  border: solid #071C2C 2px;
+}
+
+
+.encab{
+  background-color: #071C2C;
+  min-height: 2.5em;
+}
+
+.encab h4{
+  max-height: 3em;
+}
+
+.btn-secondary{
+background-color: #071C2C;
+display:inline-block;
+padding:0.3em 1.2em;
+margin:0 0.1em 0.1em 0;
+border:0.16em solid #071C2C;
+border-radius:1em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-weight:300;
+color:#FFFFFF;
+text-shadow: 0 0.04em 0.04em #071C2C;
+text-align:center;
+transition: all 0.2s;
+}
+.btn-secondary:hover{
+background-color: #0a447a;
+color: #9ACAEB;;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.plan{
+  border: solid #071C2C 3px;
+  border-radius: 10%;
+}
+
+#mi-div {
+  text-align: center;
+}
+
+#presupuesto-total{
+  font-size: 2.5em;
+  padding: 25px;
+  background-color: lawngreen;
+  position: sticky;
+  top: 59px;
+}
+
+#mi-presupuesto{
+  background-color: orangered;
+}
+
+
+/*----------------------------------------PARA EL WIDGET DE WHATSAPP-----------------------------------------------------------------*/
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  	font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+ 	 z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+ 	background-color:#fff;
+}
+.my-float{
+	margin-top:16px;
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+
+.datos p{
+	padding: 35px;
+}
+
+
+
+.footer{
+  margin-top: 3rem;
+  } 
+  
+
+
+
+
+/*-------------------------------------media queries pestaña contacto-----------------------------------------------------------------*/
+@media (max-width: 355px) {
+	.bot_reset{
+		margin-top: 15px;
+	}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+	.bot_reset{
+		margin-top: 15px;
+	}
+}
+/*-------------------------------------------------------------------------------------------------------------------------------------*/  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bordes{
+  border: solid #071C2C 3px;
+  border-radius: 10%;
+  margin: auto;
+  width: 75%;
+}
+
+.img_tam{
+  border-radius: 10%;
+  width: 55%;
+}
+
+button{
+  margin-bottom: 8px;
+}

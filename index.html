@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GhostNet Servicios de Telecomunicaciones"><!--Descripcion de la pagina-->
+    <title>GhostNet</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com"><!--Para la fuente-->
+	<link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet"><!--Para la fuente-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> <!--Para el widget de WSP-->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="styles/main.css"><!--Linkeo al css-->
+	<link rel="icon" href="images/ghostnetisotipo.ico">
+    <script src="/js/jquery/jquery-3.6.0.min.js"></script><!--Agregado jQuery-->
+</head>
+
+
+
+<body>
+
+<!--------------------------------------------------NAVBAR------------------------------------------------------------------------------>
+<nav class="navbar  sticky-top navbar-expand-lg navbar-light bg-#071C2C justify-content-end">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="/images/ghostnetisotipo.png" alt="logo" width="30" height="30" class="d-inline-block align-text-top">  GhostNet
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>	<!--Boton para desplegar, cuando la resolucion es pequeña-->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto ">	 <!--ms-auto (margin start auto, lo manda a la derecha)-->
+        <li class="nav-item anim2">
+            <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+        </li>
+        <li class="nav-item anim2">
+            <a class="nav-link active" href="sections/nosotros.html">NOSOTROS</a>
+        </li>
+        <li class="nav-item anim2">
+            <a class="nav-link anim2" href="sections/contacto.html".html">CONTACTO</a>
+        </li>
+        <li class="nav-item anim2">
+            <a class="nav-link" href="sections/tienda.html">TIENDA</a>
+        </li>
+        </ul>
+    </div>
+</nav><!------------------------------------------------------------------------------------------------------------------------------>
+
+
+
+
+
+<!--------------------------------------------------CAROUSEL---------------------------------------------------------------------------->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item imgnormalizada  active ">
+        <img src="images/slide1.jpg" class="d-block w-100 img-fluid" alt="...">
+      </div>
+      <div class="carousel-item imgnormalizada ">
+        <img src="images/fibra.jpeg" class="d-block w-100 img-fluid" alt="...">
+      </div>
+      <div class="carousel-item imgnormalizada ">
+        <img src="images/banner3.jpg" class="d-block w-100 img-fluid" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!--------------------------------------------------------------------------------------------------------------------------------------> 
+  
+  
+    <div class="container marketing text-center "><!--CONTENEDOR GLOBAL-->
+  
+      <div class="row cont_servicios"><!--PRIMERA SECCION DE 4 ELEMENTOS-->
+  
+              <div class="col-sm-12 col-md-6 col-xl-3 iten" id="serv_1">
+               <div class="anim" >
+                  <img src="images/rss_feed.svg" class="img_serv" alt="Bootstrap" id="serv_11">
+               </div>
+                <h2 >Internet</h2>
+                <p class="serv">Proveemos Internet+WiFi por fibra óptica. Conocé todos nuestros planes</p>
+                <a class="btn btn-dark " id="serv_111" href=#Planes>Ver planes </a>
+                <br>
+              </div>
+  
+  
+              <div class="col-sm-12 col-md-6 col-xl-3 iten" id="serv_2">
+                <div class="anim">
+                  <img src="images/build_black.svg" class="img_serv" alt="Bootstrap" id="serv_22" >
+                </div>  
+                <h2 class="servicio"> Servicio Técnico</h2>
+                <p>Formateos, hardware, impresoras, backup y recuperación de archivos</p>
+                <p><a class="btn btn-dark btn_serv" id="serv_222" href="sections/contacto.html"> Solicitar</a></p>
+              </div>
+  
+  
+              <div class="col-sm-12 col-md-6 col-xl-3 iten" id="serv_3"> 
+                <div class="anim">
+                  <img src="images/supervisor_account.svg" class="img_serv" alt="Bootstrap" id="serv_33">
+                </div>  
+                <h2 class="servicio">Asesoramiento</h2>
+                <p>Sobre protecciones eléctricas, redes de comunicaciones y mucho más</p>
+                <p><a class="btn btn-dark" id="serv_333" href="sections/contacto.html">Contáctanos</a></p>
+              </div>
+                
+              
+              <div class="col-sm-12 col-md-6 col-xl-3 iten" id="serv_4">
+                <div class="anim">
+                  <img src="images/router_black.svg" class="img_serv" alt="Bootstrap" id="serv_44">
+                </div>  
+                <h2 class="servicio">Insumos</h2>
+                <p>Proveemos routers, antenas,toners y tecnologías renovables</p>
+                <p><a class="btn btn-dark" id="serv_444" href="sections/tienda.html">Ver más</a></p>
+              </div>
+  
+               <hr class="h_hr" >
+  
+      </div><!-- /.row -->
+  
+  
+  
+        <div class="container text-start"> <!--SEGUNDA SECCION, QUE CONTIENE 2 ARTICULOS-->    
+  
+            <article>
+                <h2 class="text-center"><a name=Planes>PLANES DISPONIBLES:</a></h2>
+                <br>
+                <br>
+                <!-------------------------------------------1ER ARTICULO--------------------------------------------------------------------->
+                <h4 class="text-center p-4" id="fibraoptica"><u>FIBRA OPTICA </u></h4>
+            
+                <div class="row " id="fibra"><!--FILA DE 4 ELEMENTOS-->
+                        <div class="col-sm-12 col-md-6 col-xl-3 iten text-center" >
+                          <div class="anim">
+                            <img src="images/10Mfibra.jpg" class="rounded-circle" width="140" height="140"> 
+                          </div>  
+                          <br>
+                          <br>
+                          <p>Downstream hasta 15 Megas<br>Upstream hasta 8 Megas<br>Sin Limites de descarga<br>Incluye Wi-Fi</p>
+                          <div class="anim3">  
+                            <p><a class="btn btn-dark" id="fibra1" href="sections/contacto.html">Contratar</a></p>
+                          </div>
+                        </div>
+  
+                        <div class="col-sm-12 col-md-6 col-xl-3 iten text-center">
+                          <div class="anim">
+                            <img src="images/15Mfibra.jpg" class="rounded-circle" width="140" height="140">
+                          </div>   
+                          <br>
+                          <br>
+                          <p>Downstream hasta 15 Megas<br>Upstream hasta 8 Megas<br>Sin Limites de descarga<br>Incluye Wi-Fi</p>
+                          <div class="anim3"> 
+                            <p><a class="btn btn-dark" id="fibra2" href="sections/contacto.html">Contratar</a></p>
+                          </div>  
+                        </div>
+  
+                        <div class="col-sm-12 col-md-6 col-xl-3 iten text-center">
+                          <div class="anim">
+                            <img src="images/20Mfibra.jpg" class="rounded-circle" width="140" height="140">
+                          </div>   
+                          <br>
+                          <br>
+                          <p>Downstream hasta 15 Megas<br>Upstream hasta 8 Megas<br>Sin Limites de descarga<br>Incluye Wi-Fi</p>
+                          <div class="anim3"> 
+                            <p><a class="btn btn-dark" id="fibra3" href="sections/contacto.html">Contratar</a></p>
+                          </div>  
+                        </div>
+  
+  
+                        <div class="col-sm-12 col-md-6 col-xl-3 iten text-center">
+                          <div class="anim">
+                            <img src="images/30Mfibra.jpg" class="rounded-circle" width="140" height="140">
+                          </div>   
+                          <br>
+                          <br>
+                          <p>Downstream hasta 15 Megas<br>Upstream hasta 8 Megas<br>Sin Limites de descarga<br>Incluye Wi-Fi</p>
+                          <div class="anim3"> 
+                            <p><a class="btn btn-dark" id="fibra4" href="sections/contacto.html">Contratar</a></p>
+                          </div>  
+                        </div>
+                </div><!--TERMINA FILA -->
+  
+                <hr class="h_hr">
+  
+                <!--------------------------------------------2DO ARTICULO---------------------------------------------------------------------> 
+                <h4 class="text-center p-4" id="radioenlace"><u>RADIO ENLACE</u></h4>
+  
+                <div class="row" id="renlace"><!--FILA DE 4 ELEMENTOS-->
+                        <div class="col-sm-12 col-md-6 col-xl-3 iten text-center">
+                          <div class="anim">
+                            <img src="images/10Mfibra.jpg" class="rounded-circle" width="140" height="140">
+                          </div>   
+                          <br>
+                          <br>
+                          <p>Downstream hasta 15 Megas<br>Upstream hasta 8 Megas<br>Sin Limites de descarga<br>Incluye Wi-Fi</p>
+                          <div class="anim3"> 
+                            <p><a class="btn btn-dark" id="renlace1" href="sections/contacto.html">Ver más</a></p>
+                          </div>  
+                        </div>
+  
+                        <div class="col-sm-12 col-md-6 col-xl-3 iten text-center">
+                          <div class="anim">
+                            <img src="images/15Mfibra.jpg" class="rounded-circle" width="140" height="140">
+                          </div>  
+                          <br>
+                          <br>
+                          <p>Downstream hasta 15 Megas<br>Upstream hasta 8 Megas<br>Sin Limites de descarga<br>Incluye Wi-Fi</p>
+                          <div class="anim3"> 
+                            <p><a class="btn btn-dark" id="renlace2" href="sections/contacto.html">Ver más</a></p>
+                          </div>  
+                        </div>
+  
+                        <div class="col-sm-12 col-md-6 col-xl-3 iten text-center">
+                          <div class="anim">
+                            <img src="images/20Mfibra.jpg" class="rounded-circle" width="140" height="140">
+                          </div>  
+                          <br>
+                          <br>
+                          <p>Downstream hasta 15 Megas<br>Upstream hasta 8 Megas<br>Sin Limites de descarga<br>Incluye Wi-Fi</p>
+                          <div class="anim3"> 
+                            <p><a class="btn btn-dark" id="renlace3" href="sections/contacto.html">Ver más</a></p>
+                          </div>  
+                        </div>
+  
+  
+                        <div class="col-sm-12 col-md-6 col-xl-3 iten text-center">
+                          <div class="anim">
+                            <img src="images/30Mfibra.jpg" class="rounded-circle" width="140" height="140">
+                          </div>  
+                          <br>
+                          <br>
+                          <p>Downstream hasta 15 Megas<br>Upstream hasta 8 Megas<br>Sin Limites de descarga<br>Incluye Wi-Fi</p>
+                          <div class="anim3"> 
+                            <p><a class="btn btn-dark" id="renlace4" href="sections/contacto.html">Ver más</a></p>
+                          </div>  
+                        </div>
+                </div><!--TERMINA FILA -->
+           
+                <hr class="h_hr">  
+  
+                <div class="conteiner">
+                  <div class="row">
+                    <h4 class="text-center"><u>¿Donde estamos?</u></h4>
+                    <br>
+                    <br>
+                  
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6577.833058160939!2d-58.72545392773733!3d-34.479641707079665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca289247ae7bd%3A0xdbe4cd2a605edb1e!2sMalvinas%20Argentinas%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1646257730413!5m2!1ses!2sar" width="50%" height="500px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                  
+                  </div>
+                </div>
+  
+            </article>              
+         </div>
+  
+      <hr class="h_hr">
+
+    
+    <!---------------------------------------------BOTON FLOTANTE WSP-------------------------------------------------------------->
+    <a href="https://api.whatsapp.com/send?phone=5491164660788&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20%20" class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+    </a><!------------------------------------------------------------------------------------------------------------------------->
+    
+    <!----------------------------------------------FOOTER------------------------------------------------------------------------->
+    <div class="container footer">
+        <p><a href="terminos.html">Terminos y condiciones</a>			© 2021 GhostNet es una marca registrada y su isologotipo posee Copyright|   </p> 
+    </div>
+    <!----------------------------------------------------------------------------------------------------------------------------->
+
+
+</div><!---------------------CIERRE CONTENEDOR GLOBAL------------------------------------------------------------------------------>	
+
+
+<script src="/js/animaciones.js"></script>
+
+
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- Option 1: Bootstrap Bundle with Popper 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script> -->
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
